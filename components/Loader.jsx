@@ -4,7 +4,8 @@ const Loader = () => (
   <div className="text-center">
     <button
       type="button"
-      className="inline-flex items-center px-4 py-2 text-base font-medium text-white transition duration-150 ease-in-out border border-transparent rounded-md cursor-not-allowed bg-rose-600 hover:bg-rose-500 focus:border-rose-700 active:bg-rose-700"
+      // eslint-disable-next-line max-len
+      className="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md cursor-not-allowed bg-rose-600 hover:bg-rose-500 focus:border-rose-700 active:bg-rose-700"
       disabled=""
     >
       <svg
