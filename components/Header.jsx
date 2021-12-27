@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <div className="container px-10 mx-auto mb-8">
-      <div className="inline-block w-full py-8 border-b border-blue-400">
+      <div className="inline-block w-full py-8 border-b-4 border-red-600">
         <div className="block md:float-left">
           <Link href="/">
             <span className="text-4xl font-bold text-white cursor-pointer">MotoRidin</span>
