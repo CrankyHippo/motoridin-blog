@@ -1,9 +1,11 @@
-# GraphCMS Headless Blog
+# Motoridin Blog
 
-### [Live Site]()
+Reserving space to fill in details. 
+
+<!-- ### [Live Site]()
 
 ![GraphCMS Headless Blog]()
 
 
-## Introduction
+## Introduction -->
 
