@@ -17,8 +17,10 @@ const PostCard = ({ post }) => (
         src={post.featuredImage.url}
       />
     </div> */}
-    <div className="relative mb-6 overflow-hidden shadow-md pb-80">
-      <img src={post.featuredImage.url} alt="" className="absolute object-cover object-top w-full rounded-t-lg shadow-lg h-80 lg:rounded-lg" />
+    <div className="relative mb-6 overflow-hidden shadow-md cursor-pointer pb-80 hover:shadow-xl">
+      <Link href={`/post/${post.slug}`}>
+        <img src={post.featuredImage.url} alt="" className="absolute object-cover object-top w-full rounded-t-lg shadow-lg h-80 lg:rounded-lg" />
+      </Link>
     </div>
 
     <h1 className="mb-8 text-3xl font-semibold text-center transition duration-700 cursor-pointer hover:text-red-600">
