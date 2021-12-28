@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 import { getCategories } from '../services';
+// import { getAbout } from '../services;
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
@@ -17,7 +18,7 @@ const Header = () => {
       <div className="inline-block w-full py-8 border-b-4 border-red-600">
         <div className="block md:float-left">
           <Link href="/">
-            <span className="text-4xl font-bold text-white cursor-pointer">MotoRidin</span>
+            <span className="px-4 py-1 text-4xl font-bold text-white transition duration-500 rounded cursor-pointer hover:bg-black">MotoRidin</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
