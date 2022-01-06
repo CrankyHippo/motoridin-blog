@@ -13,6 +13,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@graphcms/rich-text-react-renderer": "^0.4.0",
     "graphql": "^15.8.0",
     "graphql-request": "^3.7.0",
     "html-react-parser": "^1.4.4",
